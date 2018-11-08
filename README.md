@@ -37,6 +37,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run storybook`
+
+Storybook runs outside of the main app so users can develop UI components in isolation without worrying about app specific dependencies and requirements.
+
+### `npm run build-storybook`
+
+This will build the storybook configured in the Storybook directory into a static web app and place it inside the .out directory. Now you can deploy the content in the .out directory wherever you want.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
